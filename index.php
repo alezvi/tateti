@@ -33,7 +33,7 @@ class TaTeTi
                         $this->setWinner(1);
                     }
 
-                    if ($sum === 0) {
+                    if ($sum === 6) {
                         $this->setWinner(0);
                     }
                 }
@@ -67,7 +67,7 @@ class TaTeTi
     private function togglePlayer() 
     {
         if ($this->player === 1) {
-            $this->player = 0;
+            $this->player = 2;
             return;
         }
 
