@@ -113,4 +113,3 @@ $tateti->mark(6);
 
 // O
 $tateti->mark(8);
-
